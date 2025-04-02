@@ -1,3 +1,21 @@
+# UE22CS343BB1 Heterogeneous Parallelism
+
+**Assignment 1**: A Directory-based Cache Simulator for a Distributed Shared Memory System
+
+**Name**: Sujal Yatin Vaidya
+
+**SRN**: PES1UG22EC299
+
+**Email**: sujalyatin@gmail.com
+
+## Note
+
+- Comments written in the code explaining the implementation
+- Test 1 and test 2 works as expected
+- Test 3 and test 4 require multiple runs to match expected output
+- Modifications made in printProcessorState since I used MinGW which  did not support %B
+
+
 # Directory-Based Cache Coherence Protocol Simulation
 
 In this assignment, you will be implementing a directory-based cache coherence protocol in a distributed shared memory ( DSM ) system. The protocol which you will be implementing is based off of [DASH](https://dl.acm.org/doi/10.1145/325096.325132), but is not 1:1 replica. The implementation details will be explained in the subsequent sections. The system consists of multiple processor nodes, which will be simulated using OpenMP. Each processor contains:
